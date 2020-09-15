@@ -14,7 +14,7 @@ We have all the music books, instruments, media available in the project as per 
 Moreover, if anyone has an query can fill up the form.
 
 ### How to run the code in local?
-We can run the code in **Microsoft Visual Studio 2019**
+We can run the code in **Microsoft Visual Studio 2019.**
 
 Technology used is HTML(Hypertext Markup Language) and CSS( Cascading Style sheets).
 
