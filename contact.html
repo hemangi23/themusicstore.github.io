@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> THE MUSIC STORE </title>
+</head>
+<body style="background-color:mistyrose;">
+    <h2> Contact Us </h2>
+    <p> Interested in getting more information? Fill out the form below </p>
+
+
+    <!-- insert from here -->
+
+    <form action="thankyou.html" method="get" oninput="fn.value = firstname.value + ' ' + lastname.value">
+        <fieldset>
+            <legend> Personal Information </legend>
+
+            <div class="control">
+                <label for="firstname"> First Name </label> <br />
+                <input type="text" name="firstname" id="firstname"
+                       required="" accesskey="f" tabindex="1" /> <br />
+            </div>
+
+            <div class="control">
+                <label for="lastname"> Last Name </label> <br />
+                <input type="text" name="lastname" id="lastname"
+                       required="" accesskey="l" tabindex="2" /> <br />
+
+            </div>
+
+            <div class="control">
+                <label for="email"> Email Address </label> <br />
+                <input type="email" name="email" id="email"
+                       required="" accesskey="e" tabindex="3" /> <br />
+            </div>
+
+            <div class="control">
+                <label for="contact"> Contact Number </label> <br />
+                <input type="number" name="contact" id="contact"
+                       required="" accesskey="c" tabindex="4" /> <br />
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend> Questions </legend>
+            <p> How did you hear about us? </p>
+            <select name="found" id="found">
+                <optgroup label="Media">
+                    <option value="Radio"> Radio </option>
+                    <option value="Word of mouth"> Word of mouth </option>
+                    <option value="Advertising source"> Advertising Source </option>
+                    <option value="Other"> Other </option>
+                </optgroup>
+                <optgroup label="Web">
+                    <option value="Google"> Google </option>
+                    <option value="Firefox"> Firefox </option>
+                </optgroup>
+            </select>
+            <p> Other, Please Specify: </p>
+            <textarea rows="1" cols="15" maxlength="150"> </textarea>
+            <p> What instrument are you most interested in learning? </p>
+            <input list="instruments" name="instrument" />
+            <datalist id="instruments">
+                <option value="Guitar"> </option>
+                <option value="Piano"> </option>
+                <option value="Drums"> </option>
+                <option value="Bass"> </option>
+                <option value="Other"> </option>
+            </datalist>
+
+            <p> Other, Please Specify: </p>
+            <textarea rows="1" cols="15" maxlength="150"> </textarea>
+        </fieldset>
+        <p> Add comments below: </p>
+        <textarea rows="6" cols="50" maxlength="250"> </textarea>
+
+
+
+
+        <button name="showimage" onclick=""> Show Image </button> <br />
+        <input type="submit" name="submitform" value="Submit it" />
+        <output name="fn"> </output>
+
+
+    </form>
+
+
+</body>
+</html>
