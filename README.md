@@ -28,23 +28,6 @@ How to run Microsoft Visual Studio?
 * Click on HTML page/ CSS style sheet (as per refernce).
 * Now the HTML/CSS page will be opened.
 
-Syntax for HTML:
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
-
-</body>
-</html>
-
-Syntax for CSS:
-body{
-}
-
 
 ### DEMO LINK:
 
