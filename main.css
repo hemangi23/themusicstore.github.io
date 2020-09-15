@@ -1,0 +1,42 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: navy;
+}
+
+/* The background color extends across the page, so, we 
+    have commented it out for now.
+*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+figcaption {
+    color: navy;
+    font-weight: bold;
+    /* background-color: indianred; */
+}
+
+.sale{
+    background-color:indianred;
+    font-weight:bold;
+    font-style:italic;
+}
+
+#sidenote{
+    background-color:#d38585;
+    display:inline;
+    font-weight:500;
+
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+
+    font-family:'Palatino' serif;
+}
