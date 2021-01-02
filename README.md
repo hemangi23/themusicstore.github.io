@@ -30,6 +30,6 @@ How to run Microsoft Visual Studio?
 
 
 ### DEMO LINK:
-https://themusicstore.surge.sh/home1
+https://themusicstore.surge.sh/homepage.html
 
 **THANKYOU!!**
